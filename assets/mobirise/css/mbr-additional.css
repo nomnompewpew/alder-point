@@ -838,17 +838,14 @@ section.lazy-placeholder:after {
 .cid-s2mQxOI6Ru P {
   color: #149dcc;
 }
-.cid-s2mVgDfjvn {
-  padding-top: 45px;
-  padding-bottom: 15px;
+.cid-sfAAP2fBXz {
+  padding-top: 75px;
+  padding-bottom: 75px;
   background-color: #ffffff;
 }
-.cid-s2mVgDfjvn .mbr-text,
-.cid-s2mVgDfjvn blockquote {
-  color: #767676;
-}
-.cid-s2mVgDfjvn .mbr-text P {
-  text-align: center;
+.cid-sfAAP2fBXz .mbr-overlay {
+  background-color: #ffffff;
+  opacity: 0.4;
 }
 .cid-s2mSLsYJpA {
   padding-top: 30px;
