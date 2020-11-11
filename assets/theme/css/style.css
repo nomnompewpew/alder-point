@@ -1,13 +1,33 @@
+<<<<<<< Updated upstream
 section {
   background-color: #ffffff;
+=======
+/*!
+ * Mobirise v4 theme (https://mobirise.com/)
+ * Copyright 2017 Mobirise
+ */
+section {
+  background-color: #eeeeee;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+:focus {
+  outline: none;
+>>>>>>> Stashed changes
 }
 
 body {
   font-style: normal;
   line-height: 1.5;
+<<<<<<< Updated upstream
   font-weight: 400;
   color: #232323;
   position: relative;
+=======
+>>>>>>> Stashed changes
 }
 
 section,
@@ -29,6 +49,37 @@ a.mbr-iconfont:hover {
   margin-bottom: 0;
 }
 
+<<<<<<< Updated upstream
+=======
+ul,
+ol,
+pre,
+blockquote {
+  margin-bottom: 2.3125rem;
+}
+
+pre {
+  background: #f4f4f4;
+  padding: 10px 24px;
+  white-space: pre-wrap;
+}
+
+.inactive {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+  -webkit-user-drag: none;
+  user-drag: none;
+}
+
+.mbr-section__comments .row {
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+
+>>>>>>> Stashed changes
 a {
   font-style: normal;
   font-weight: 400;
@@ -39,6 +90,7 @@ a, a:hover {
   text-decoration: none;
 }
 
+<<<<<<< Updated upstream
 .mbr-section-title {
   font-style: normal;
   line-height: 1.3;
@@ -51,6 +103,14 @@ a, a:hover {
 .mbr-text {
   font-style: normal;
   line-height: 1.7;
+=======
+figure {
+  margin-bottom: 0;
+}
+
+body {
+  color: #232323;
+>>>>>>> Stashed changes
 }
 
 h1,
@@ -59,6 +119,7 @@ h3,
 h4,
 h5,
 h6,
+<<<<<<< Updated upstream
 .display-1,
 .display-2,
 .display-4,
@@ -71,6 +132,35 @@ a {
   word-break: break-word;
   word-wrap: break-word;
   font-weight: 400;
+=======
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.display-1,
+.display-2,
+.display-3,
+.display-4 {
+  line-height: 1;
+  word-break: break-word;
+  word-wrap: break-word;
+}
+
+.mbr-section-title {
+  font-style: normal;
+  line-height: 1.2;
+}
+
+.mbr-section-subtitle {
+  line-height: 1.3;
+}
+
+.mbr-text {
+  font-style: normal;
+  line-height: 1.6;
+>>>>>>> Stashed changes
 }
 
 b,
@@ -78,6 +168,7 @@ strong {
   font-weight: bold;
 }
 
+<<<<<<< Updated upstream
 input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {
   -webkit-transition-delay: 9999s;
           transition-delay: 9999s;
@@ -89,6 +180,28 @@ textarea[type="hidden"] {
   display: none;
 }
 
+=======
+blockquote {
+  padding: 10px 0 10px 20px;
+  position: relative;
+  border-left: 2px solid;
+  border-color: #ff3366;
+}
+
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {
+  transition-delay: 9999s;
+  transition-property: background-color, color;
+}
+
+textarea[type='hidden'] {
+  display: none;
+}
+
+body {
+  position: relative;
+}
+
+>>>>>>> Stashed changes
 section {
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -118,7 +231,11 @@ section .mbr-background-video-preview {
 }
 
 .mbr-black {
+<<<<<<< Updated upstream
   color: #111111;
+=======
+  color: #000000;
+>>>>>>> Stashed changes
 }
 
 .mbr-bg-white {
@@ -142,6 +259,19 @@ section .mbr-background-video-preview {
   text-align: right;
 }
 
+<<<<<<< Updated upstream
+=======
+@media (max-width: 767px) {
+  .align-left,
+  .align-center,
+  .align-right,
+  .mbr-section-btn,
+  .mbr-section-title {
+    text-align: center;
+  }
+}
+
+>>>>>>> Stashed changes
 /*! Font-weight  */
 .mbr-light {
   font-weight: 300;
@@ -160,6 +290,7 @@ section .mbr-background-video-preview {
 }
 
 /*! Media  */
+<<<<<<< Updated upstream
 .media-content {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
@@ -183,6 +314,25 @@ section .mbr-background-video-preview {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: start;
+=======
+.media-size-item {
+  -moz-flex: 1 1 auto;
+  -o-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+.media-content {
+  flex-basis: 100%;
+}
+
+.media-container-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: start;
+>>>>>>> Stashed changes
 }
 
 .media-container-row .media-size-item {
@@ -190,6 +340,7 @@ section .mbr-background-video-preview {
 }
 
 .media-container-column {
+<<<<<<< Updated upstream
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -207,6 +358,14 @@ section .mbr-background-video-preview {
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
+=======
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: stretch;
+>>>>>>> Stashed changes
 }
 
 .media-container-column > * {
@@ -215,23 +374,38 @@ section .mbr-background-video-preview {
 
 @media (min-width: 992px) {
   .media-container-row {
+<<<<<<< Updated upstream
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
+=======
+    flex-wrap: nowrap;
+>>>>>>> Stashed changes
   }
 }
 
 figure {
+<<<<<<< Updated upstream
   margin-bottom: 0;
+=======
+>>>>>>> Stashed changes
   overflow: hidden;
 }
 
 figure[mbr-media-size] {
+<<<<<<< Updated upstream
   -webkit-transition: width 0.1s;
   transition: width 0.1s;
 }
 
 img,
 iframe {
+=======
+  transition: width 0.1s;
+}
+
+.mbr-figure img,
+.mbr-figure iframe {
+>>>>>>> Stashed changes
   display: block;
   width: 100%;
 }
@@ -247,8 +421,12 @@ iframe {
 
 .card-img {
   text-align: center;
+<<<<<<< Updated upstream
   -ms-flex-negative: 0;
       flex-shrink: 0;
+=======
+  flex-shrink: 0;
+>>>>>>> Stashed changes
   -webkit-flex-shrink: 0;
 }
 
@@ -258,9 +436,14 @@ iframe {
 }
 
 .mbr-figure {
+<<<<<<< Updated upstream
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+=======
+  -ms-grid-row-align: center;
+  align-self: center;
+>>>>>>> Stashed changes
 }
 
 .media-container > div {
@@ -285,6 +468,7 @@ iframe {
 }
 
 /*! Buttons */
+<<<<<<< Updated upstream
 .mbr-section-btn {
   margin-left: -0.6rem;
   margin-right: -0.6rem;
@@ -338,6 +522,49 @@ iframe {
 
 .btn-form:hover {
   cursor: pointer;
+=======
+.btn {
+  font-weight: 500;
+  border-width: 2px;
+  font-style: normal;
+  letter-spacing: 1px;
+  margin: .4rem .8rem;
+  white-space: normal;
+  transition: all .3s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  word-break: break-word;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+  display: -webkit-inline-flex;
+}
+
+.btn-sm {
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: all .3s ease-in-out;
+}
+
+.btn-md {
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin: .4rem .8rem !important;
+  transition: all .3s ease-in-out;
+}
+
+.btn-lg {
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin: .4rem .8rem !important;
+  transition: all .3s ease-in-out;
+}
+
+.mbr-section-btn {
+  margin-left: -0.25rem;
+  margin-right: -0.25rem;
+  font-size: 0;
+>>>>>>> Stashed changes
 }
 
 nav .mbr-section-btn {
@@ -345,6 +572,7 @@ nav .mbr-section-btn {
   margin-right: 0rem;
 }
 
+<<<<<<< Updated upstream
 /*! Btn icon margin */
 .btn .mbr-iconfont,
 .btn.btn-sm .mbr-iconfont {
@@ -354,11 +582,30 @@ nav .mbr-section-btn {
   cursor: pointer;
   margin-left: 0.5rem;
   vertical-align: sub;
+=======
+.btn-form {
+  border-radius: 0;
+}
+
+.btn-form:hover {
+  cursor: pointer;
+}
+
+/*! Btn icon margin */
+.btn .mbr-iconfont,
+.btn.btn-sm .mbr-iconfont {
+  cursor: pointer;
+  margin-right: 0.5rem;
+>>>>>>> Stashed changes
 }
 
 .btn.btn-md .mbr-iconfont,
 .btn.btn-md .mbr-iconfont {
+<<<<<<< Updated upstream
   margin-left: 0.8rem;
+=======
+  margin-right: 0.8rem;
+>>>>>>> Stashed changes
 }
 
 .mbr-regular {
@@ -373,7 +620,11 @@ nav .mbr-section-btn {
   font-weight: 700;
 }
 
+<<<<<<< Updated upstream
 [type="submit"] {
+=======
+[type='submit'] {
+>>>>>>> Stashed changes
   -webkit-appearance: none;
 }
 
@@ -383,15 +634,23 @@ nav .mbr-section-btn {
 }
 
 .mbr-fullscreen {
+<<<<<<< Updated upstream
   display: -webkit-box;
   display: -ms-flexbox;
+=======
+>>>>>>> Stashed changes
   display: flex;
   display: -moz-flex;
   display: -ms-flex;
   display: -o-flex;
+<<<<<<< Updated upstream
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+=======
+  align-items: center;
+  -webkit-align-items: center;
+>>>>>>> Stashed changes
   min-height: 100vh;
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -408,7 +667,112 @@ nav .mbr-section-btn {
   height: 100%;
 }
 
+<<<<<<< Updated upstream
 /*! Scroll to top arrow */
+=======
+.mbr-overlay {
+  background-color: #000;
+  bottom: 0;
+  left: 0;
+  opacity: .5;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Form */
+blockquote {
+  font-style: italic;
+  padding: 10px 0 10px 20px;
+  font-size: 1.09rem;
+  position: relative;
+  border-width: 3px;
+}
+
+.form-control {
+  background-color: #f5f5f5;
+  box-shadow: none;
+  color: #565656;
+  line-height: 1.43;
+  min-height: 3.5em;
+  padding: 1.07em .5em;
+}
+
+.form-control, .form-control:focus {
+  border: 1px solid #e8e8e8;
+}
+
+.form-active .form-control:invalid {
+  border-color: red;
+}
+
+.form-control-label {
+  position: relative;
+  cursor: pointer;
+  margin-bottom: .357em;
+  padding: 0;
+}
+
+.alert {
+  color: #ffffff;
+  border-radius: 0;
+  border: 0;
+  font-size: .875rem;
+  line-height: 1.5;
+  margin-bottom: 1.875rem;
+  padding: 1.25rem;
+  position: relative;
+}
+
+.alert.alert-form::after {
+  background-color: inherit;
+  bottom: -7px;
+  content: "";
+  display: block;
+  height: 14px;
+  left: 50%;
+  margin-left: -7px;
+  position: absolute;
+  transform: rotate(45deg);
+  width: 14px;
+  -webkit-transform: rotate(45deg);
+}
+
+.form-asterisk {
+  font-family: initial;
+  position: absolute;
+  top: -2px;
+  font-weight: normal;
+}
+
+/*! Scroll to top arrow */
+#scrollToTop a i:before {
+  content: '';
+  position: absolute;
+  height: 40%;
+  top: 25%;
+  background: #fff;
+  width: 2px;
+  left: calc(50% - 1px);
+}
+
+#scrollToTop a i:after {
+  content: '';
+  position: absolute;
+  display: block;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  width: 40%;
+  height: 40%;
+  left: 30%;
+  bottom: 30%;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+>>>>>>> Stashed changes
 .mbr-arrow-up {
   bottom: 25px;
   right: 90px;
@@ -416,21 +780,37 @@ nav .mbr-section-btn {
   text-align: right;
   z-index: 5000;
   color: #ffffff;
+<<<<<<< Updated upstream
   font-size: 22px;
+=======
+  font-size: 32px;
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+>>>>>>> Stashed changes
 }
 
 .mbr-arrow-up a {
   background: rgba(0, 0, 0, 0.2);
+<<<<<<< Updated upstream
   border-radius: 50%;
+=======
+  border-radius: 3px;
+>>>>>>> Stashed changes
   color: #fff;
   display: inline-block;
   height: 60px;
   width: 60px;
+<<<<<<< Updated upstream
   border: 2px solid #fff;
   outline-style: none !important;
   position: relative;
   text-decoration: none;
   -webkit-transition: all 0.3s ease-in-out;
+=======
+  outline-style: none !important;
+  position: relative;
+  text-decoration: none;
+>>>>>>> Stashed changes
   transition: all 0.3s ease-in-out;
   cursor: pointer;
   text-align: center;
@@ -450,17 +830,28 @@ nav .mbr-section-btn {
 }
 
 .mbr-arrow-up-icon::before {
+<<<<<<< Updated upstream
   content: "\203a";
   display: inline-block;
   font-family: serif;
   font-size: 22px;
+=======
+  content: '\203a';
+  display: inline-block;
+  font-family: serif;
+  font-size: 32px;
+>>>>>>> Stashed changes
   line-height: 1;
   font-style: normal;
   position: relative;
   top: 6px;
   left: -4px;
   -webkit-transform: rotate(-90deg);
+<<<<<<< Updated upstream
           transform: rotate(-90deg);
+=======
+  transform: rotate(-90deg);
+>>>>>>> Stashed changes
 }
 
 /*! Arrow Down */
@@ -474,6 +865,7 @@ nav .mbr-section-btn {
   background-color: rgba(80, 80, 80, 0.5);
   border-radius: 50%;
   -webkit-transform: translateX(-50%);
+<<<<<<< Updated upstream
           transform: translateX(-50%);
 }
 
@@ -481,6 +873,9 @@ nav .mbr-section-btn {
   .mbr-arrow {
     display: none;
   }
+=======
+  transform: translateX(-50%);
+>>>>>>> Stashed changes
 }
 
 .mbr-arrow > a {
@@ -488,8 +883,12 @@ nav .mbr-section-btn {
   text-decoration: none;
   outline-style: none;
   -webkit-animation: arrowdown 1.7s ease-in-out infinite;
+<<<<<<< Updated upstream
           animation: arrowdown 1.7s ease-in-out infinite;
   color: #ffffff;
+=======
+  animation: arrowdown 1.7s ease-in-out infinite;
+>>>>>>> Stashed changes
 }
 
 .mbr-arrow > a > i {
@@ -499,6 +898,7 @@ nav .mbr-section-btn {
   font-size: 2rem;
 }
 
+<<<<<<< Updated upstream
 #scrollToTop a i::before {
   content: "";
   position: absolute;
@@ -525,11 +925,26 @@ nav .mbr-section-btn {
   100% {
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
+=======
+@keyframes arrowdown {
+  0% {
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+>>>>>>> Stashed changes
   }
 }
 
 @-webkit-keyframes arrowdown {
   0% {
+<<<<<<< Updated upstream
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
   }
@@ -540,6 +955,18 @@ nav .mbr-section-btn {
   100% {
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
+=======
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+>>>>>>> Stashed changes
   }
 }
 
@@ -547,6 +974,11 @@ nav .mbr-section-btn {
   .mbr-arrow-up {
     left: 50%;
     right: auto;
+<<<<<<< Updated upstream
+=======
+    transform: translateX(-50%) rotate(180deg);
+    -webkit-transform: translateX(-50%) rotate(180deg);
+>>>>>>> Stashed changes
   }
 }
 
@@ -588,8 +1020,11 @@ nav .mbr-section-btn {
 }
 
 .menu .navbar-brand span {
+<<<<<<< Updated upstream
   display: -webkit-box;
   display: -ms-flexbox;
+=======
+>>>>>>> Stashed changes
   display: flex;
   display: -webkit-flex;
 }
@@ -602,14 +1037,23 @@ nav .mbr-section-btn {
   display: -webkit-flex;
 }
 
+<<<<<<< Updated upstream
 @media (min-width: 768px) and (max-width: 991px) {
   .menu .navbar-toggleable-sm .navbar-nav {
     display: -webkit-box;
+=======
+@media (min-width: 768px) and (max-width: 1023px) {
+  .menu .navbar-toggleable-sm .navbar-nav {
+>>>>>>> Stashed changes
     display: -ms-flexbox;
   }
 }
 
+<<<<<<< Updated upstream
 @media (max-width: 991px) {
+=======
+@media (max-width: 1023px) {
+>>>>>>> Stashed changes
   .menu .navbar-collapse {
     max-height: 93.5vh;
   }
@@ -618,7 +1062,11 @@ nav .mbr-section-btn {
   }
 }
 
+<<<<<<< Updated upstream
 @media (min-width: 992px) {
+=======
+@media (min-width: 1024px) {
+>>>>>>> Stashed changes
   .menu .navbar-nav.nav-dropdown {
     display: -webkit-flex;
   }
@@ -639,8 +1087,24 @@ nav .mbr-section-btn {
   }
 }
 
+<<<<<<< Updated upstream
 .nav-link .mbr-iconfont {
   margin-right: .5rem;
+=======
+/* Others*/
+.note-check a[data-value=Rubik] {
+  font-style: normal;
+}
+
+.mbr-arrow a {
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .mbr-arrow {
+    display: none;
+  }
+>>>>>>> Stashed changes
 }
 
 .navbar {
@@ -677,6 +1141,10 @@ nav .mbr-section-btn {
 
 .form-inline {
   display: -webkit-flex;
+<<<<<<< Updated upstream
+=======
+  -webkit-align-items: center;
+>>>>>>> Stashed changes
 }
 
 .card-wrapper {
@@ -686,6 +1154,11 @@ nav .mbr-section-btn {
 .carousel-control {
   z-index: 10;
   display: -webkit-flex;
+<<<<<<< Updated upstream
+=======
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+>>>>>>> Stashed changes
 }
 
 .carousel-controls {
@@ -701,6 +1174,7 @@ nav .mbr-section-btn {
 }
 
 .jq-selectbox__select {
+<<<<<<< Updated upstream
   padding: 7px 0;
   position: relative;
 }
@@ -708,6 +1182,16 @@ nav .mbr-section-btn {
 .jq-selectbox__dropdown {
   overflow: hidden;
   border-radius: 10px;
+=======
+  padding: 1.07em 0.5em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.jq-selectbox__dropdown {
+>>>>>>> Stashed changes
   position: absolute;
   top: 100%;
   left: 0 !important;
@@ -715,7 +1199,10 @@ nav .mbr-section-btn {
 }
 
 .jq-selectbox__trigger-arrow {
+<<<<<<< Updated upstream
   right: 0;
+=======
+>>>>>>> Stashed changes
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
@@ -724,7 +1211,11 @@ nav .mbr-section-btn {
   padding: 1.07em 0.5em;
 }
 
+<<<<<<< Updated upstream
 input[type="range"] {
+=======
+input[type='range'] {
+>>>>>>> Stashed changes
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
@@ -753,8 +1244,11 @@ input[type="range"] {
 }
 
 .navbar-toggler {
+<<<<<<< Updated upstream
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
+=======
+>>>>>>> Stashed changes
   align-self: flex-start;
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
@@ -774,7 +1268,11 @@ input[type="range"] {
   width: 1.5em;
   height: 1.5em;
   vertical-align: middle;
+<<<<<<< Updated upstream
   content: "";
+=======
+  content: '';
+>>>>>>> Stashed changes
   background: no-repeat center center;
   background-size: 100% 100%;
 }
@@ -789,6 +1287,7 @@ input[type="range"] {
   right: 1rem;
 }
 
+<<<<<<< Updated upstream
 .card-img {
   width: auto;
 }
@@ -1016,6 +1515,229 @@ blockquote {
   opacity: 1;
 }
 /*# sourceMappingURL=style.css.map */.engine {
+=======
+@media (max-width: 575px) {
+  .navbar-toggleable .navbar-nav .dropdown-menu {
+    position: static;
+    float: none;
+  }
+  .navbar-toggleable > .container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 576px) {
+  .navbar-toggleable {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .navbar-toggleable .navbar-nav {
+    flex-direction: row;
+  }
+  .navbar-toggleable .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  .navbar-toggleable > .container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .navbar-toggleable .navbar-collapse {
+    display: flex !important;
+    width: 100%;
+  }
+  .navbar-toggleable .navbar-toggler {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-toggleable-sm .navbar-nav .dropdown-menu {
+    position: static;
+    float: none;
+  }
+  .navbar-toggleable-sm > .container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-toggleable-sm {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .navbar-toggleable-sm .navbar-nav {
+    flex-direction: row;
+  }
+  .navbar-toggleable-sm .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  .navbar-toggleable-sm > .container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .navbar-toggleable-sm .navbar-collapse {
+    display: none;
+    width: 100%;
+  }
+  .navbar-toggleable-sm .navbar-toggler {
+    display: none;
+  }
+}
+
+@media (max-width: 1023px) {
+  .navbar-toggleable-md .navbar-nav .dropdown-menu {
+    position: static;
+    float: none;
+  }
+  .navbar-toggleable-md > .container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .navbar-toggleable-md {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .navbar-toggleable-md .navbar-nav {
+    flex-direction: row;
+  }
+  .navbar-toggleable-md .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  .navbar-toggleable-md > .container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .navbar-toggleable-md .navbar-collapse {
+    display: flex !important;
+    width: 100%;
+  }
+  .navbar-toggleable-md .navbar-toggler {
+    display: none;
+  }
+}
+
+@media (max-width: 1199px) {
+  .navbar-toggleable-lg .navbar-nav .dropdown-menu {
+    position: static;
+    float: none;
+  }
+  .navbar-toggleable-lg > .container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navbar-toggleable-lg {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .navbar-toggleable-lg .navbar-nav {
+    flex-direction: row;
+  }
+  .navbar-toggleable-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  .navbar-toggleable-lg > .container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .navbar-toggleable-lg .navbar-collapse {
+    display: flex !important;
+    width: 100%;
+  }
+  .navbar-toggleable-lg .navbar-toggler {
+    display: none;
+  }
+}
+
+.navbar-toggleable-xl {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.navbar-toggleable-xl .navbar-nav .dropdown-menu {
+  position: static;
+  float: none;
+}
+
+.navbar-toggleable-xl > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.navbar-toggleable-xl .navbar-nav {
+  flex-direction: row;
+}
+
+.navbar-toggleable-xl .navbar-nav .nav-link {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.navbar-toggleable-xl > .container {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.navbar-toggleable-xl .navbar-collapse {
+  display: flex !important;
+  width: 100%;
+}
+
+.navbar-toggleable-xl .navbar-toggler {
+  display: none;
+}
+
+.card-img {
+  width: auto;
+}
+
+.menu .navbar.collapsed:not(.beta-menu) {
+  flex-direction: column;
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: flex;
+}
+
+.note-air-layout .dropup .dropdown-menu,
+.note-air-layout .navbar-fixed-bottom .dropdown .dropdown-menu {
+  bottom: initial !important;
+}
+
+html,
+body {
+  height: auto;
+  min-height: 100vh;
+}
+
+.dropup .dropdown-toggle::after {
+  display: none;
+}
+.engine {
+>>>>>>> Stashed changes
 	position: absolute;
 	text-indent: -2400px;
 	text-align: center;
